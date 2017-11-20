@@ -62,4 +62,4 @@ val ranksByUsername = users.join(ranks).map {
 println(ranksByUsername.collect().mkString("\n"))
 
 //Pelos resultados apresentados neste exemplo conclue-se que a Cidade de Magé possui o maior valor de ranqueamento, ou seja ela tem mais interrelações do que as outras.
-Em segundo lugar está São Gonçalo.
+//Em segundo lugar está São Gonçalo.
